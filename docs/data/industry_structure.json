@@ -1,0 +1,96 @@
+{
+  "cbp_2022": [
+    {
+      "county": "Middlesex County",
+      "industry": "Retail trade",
+      "establishments": 4730,
+      "employment": 78960,
+      "annual_payroll_thousands": 3232258
+    },
+    {
+      "county": "Middlesex County",
+      "industry": "Food services",
+      "establishments": 3754,
+      "employment": 56023,
+      "annual_payroll_thousands": 1679223
+    },
+    {
+      "county": "Middlesex County",
+      "industry": "Personal services",
+      "establishments": 1905,
+      "employment": 10517,
+      "annual_payroll_thousands": 362274
+    },
+    {
+      "county": "Suffolk County",
+      "industry": "Retail trade",
+      "establishments": 2312,
+      "employment": 42086,
+      "annual_payroll_thousands": 2989208
+    },
+    {
+      "county": "Suffolk County",
+      "industry": "Food services",
+      "establishments": 2595,
+      "employment": 47244,
+      "annual_payroll_thousands": 1674219
+    },
+    {
+      "county": "Suffolk County",
+      "industry": "Personal services",
+      "establishments": 1256,
+      "employment": 8061,
+      "annual_payroll_thousands": 307566
+    }
+  ],
+  "qcew_2024_q1": [
+    {
+      "county": "Middlesex County",
+      "industry": "Retail trade",
+      "year": 2024,
+      "quarter": 1,
+      "establishments": 4254,
+      "employment": 69411
+    },
+    {
+      "county": "Middlesex County",
+      "industry": "Food services",
+      "year": 2024,
+      "quarter": 1,
+      "establishments": 3270,
+      "employment": 53608
+    },
+    {
+      "county": "Middlesex County",
+      "industry": "Personal services",
+      "year": 2024,
+      "quarter": 1,
+      "establishments": 1646,
+      "employment": 9973
+    },
+    {
+      "county": "Suffolk County",
+      "industry": "Retail trade",
+      "year": 2024,
+      "quarter": 1,
+      "establishments": 2249,
+      "employment": 32099
+    },
+    {
+      "county": "Suffolk County",
+      "industry": "Food services",
+      "year": 2024,
+      "quarter": 1,
+      "establishments": 2302,
+      "employment": 50723
+    },
+    {
+      "county": "Suffolk County",
+      "industry": "Personal services",
+      "year": 2024,
+      "quarter": 1,
+      "establishments": 837,
+      "employment": 8302
+    }
+  ]
+}

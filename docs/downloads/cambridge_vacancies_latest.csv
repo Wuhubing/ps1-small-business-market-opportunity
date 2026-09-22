@@ -1,0 +1,97 @@
+district,square_feet,vacancy_year,vacancy_months,age_bucket,area_bucket
+Harvard Square,,2017.0,98,>12 months,Area not reported
+Central Square,,2017.0,98,>12 months,Area not reported
+Lower Massachusetts Ave,2464.0,2016.0,110,>12 months,"1,000–2,500 sqft"
+Alewife / Fresh Pond,5100.0,2019.0,74,>12 months,">2,500 sqft"
+Porter / North Mass Ave,,2024.0,14,>12 months,Area not reported
+Central Square,462.0,2023.0,26,>12 months,"<1,000 sqft"
+Central Square,,2025.0,2,<3 months,Area not reported
+Inman Square,,2024.0,14,>12 months,Area not reported
+East Cambridge,8002.0,2025.0,2,<3 months,">2,500 sqft"
+East Cambridge,,2022.0,38,>12 months,Area not reported
+East Cambridge,3123.0,2025.0,2,<3 months,">2,500 sqft"
+Harvard Square,2206.0,2023.0,26,>12 months,"1,000–2,500 sqft"
+East Cambridge,900.0,2023.0,26,>12 months,"<1,000 sqft"
+Harvard Square,,2021.0,50,>12 months,Area not reported
+Smaller Districts,1660.0,2018.0,86,>12 months,"1,000–2,500 sqft"
+Inman Square,,2024.0,14,>12 months,Area not reported
+Porter / North Mass Ave,1550.0,2019.0,74,>12 months,"1,000–2,500 sqft"
+East Cambridge,3825.5,2024.0,14,>12 months,">2,500 sqft"
+Porter / North Mass Ave,2417.0,2024.0,14,>12 months,"1,000–2,500 sqft"
+Kendall Square,,2023.0,26,>12 months,Area not reported
+Smaller Districts,2908.0,2015.0,122,>12 months,">2,500 sqft"
+Alewife / Fresh Pond,,2022.0,38,>12 months,Area not reported
+Lower Massachusetts Ave,3502.0,2020.0,62,>12 months,">2,500 sqft"
+Central Square,1128.0,2023.0,26,>12 months,"1,000–2,500 sqft"
+Inman Square,1502.0,2020.0,62,>12 months,"1,000–2,500 sqft"
+Porter / North Mass Ave,3750.0,2023.0,26,>12 months,">2,500 sqft"
+East Cambridge,3171.0,2019.0,74,>12 months,">2,500 sqft"
+East Cambridge,1805.0,2022.0,38,>12 months,"1,000–2,500 sqft"
+Lower Massachusetts Ave,,2025.0,2,<3 months,Area not reported
+East Cambridge,1200.0,2023.0,26,>12 months,"1,000–2,500 sqft"
+East Cambridge,,2021.0,50,>12 months,Area not reported
+Smaller Districts,,2025.0,2,<3 months,Area not reported
+Kendall Square,6500.0,2024.0,14,>12 months,">2,500 sqft"
+Central Square,9108.0,2020.0,62,>12 months,">2,500 sqft"
+Huron / Observatory Hill,2000.0,2021.0,50,>12 months,"1,000–2,500 sqft"
+Porter / North Mass Ave,2993.0,2024.0,14,>12 months,">2,500 sqft"
+Central Square,,2025.0,2,<3 months,Area not reported
+Harvard Square,,2012.0,158,>12 months,Area not reported
+Lower Massachusetts Ave,,2025.0,2,<3 months,Area not reported
+Alewife / Fresh Pond,3218.0,2024.0,14,>12 months,">2,500 sqft"
+East Cambridge,8850.0,2023.0,26,>12 months,">2,500 sqft"
+East Cambridge,1175.0,2021.0,50,>12 months,"1,000–2,500 sqft"
+Harvard Square,1000.0,2025.0,2,<3 months,"<1,000 sqft"
+Kendall Square,1215.0,2024.0,14,>12 months,"1,000–2,500 sqft"
+Central Square,2084.0,2017.0,98,>12 months,"1,000–2,500 sqft"
+East Cambridge,1000.0,2023.0,26,>12 months,"<1,000 sqft"
+Harvard Square,7518.0,2025.0,2,<3 months,">2,500 sqft"
+Inman Square,2372.0,2020.0,62,>12 months,"1,000–2,500 sqft"
+East Cambridge,6424.0,2023.0,26,>12 months,">2,500 sqft"
+Lower Massachusetts Ave,,2025.0,2,<3 months,Area not reported
+Central Square,1780.0,2018.0,86,>12 months,"1,000–2,500 sqft"
+Huron / Observatory Hill,3920.0,2024.0,14,>12 months,">2,500 sqft"
+Harvard Square,,2020.0,62,>12 months,Area not reported
+Porter / North Mass Ave,650.0,2021.0,50,>12 months,"<1,000 sqft"
+Porter / North Mass Ave,,2025.0,2,<3 months,Area not reported
+Porter / North Mass Ave,5126.0,2025.0,2,<3 months,">2,500 sqft"
+Central Square,,2020.0,62,>12 months,Area not reported
+East Cambridge,4444.0,2022.0,38,>12 months,">2,500 sqft"
+Smaller Districts,,2024.0,14,>12 months,Area not reported
+Kendall Square,5800.0,2025.0,2,<3 months,">2,500 sqft"
+Central Square,,2025.0,2,<3 months,Area not reported
+Porter / North Mass Ave,,2022.0,38,>12 months,Area not reported
+East Cambridge,791.0,2023.0,26,>12 months,"<1,000 sqft"
+Harvard Square,,2025.0,2,<3 months,Area not reported
+Kendall Square,1111.0,2024.0,14,>12 months,"1,000–2,500 sqft"
+East Cambridge,2400.0,2020.0,62,>12 months,"1,000–2,500 sqft"
+Smaller Districts,1700.0,2022.0,38,>12 months,"1,000–2,500 sqft"
+Harvard Square,,2020.0,62,>12 months,Area not reported
+Kendall Square,,2024.0,14,>12 months,Area not reported
+Central Square,,2020.0,62,>12 months,Area not reported
+East Cambridge,1758.0,2025.0,2,<3 months,"1,000–2,500 sqft"
+Central Square,,2018.0,86,>12 months,Area not reported
+Lower Massachusetts Ave,,2019.0,74,>12 months,Area not reported
+Harvard Square,4002.0,2019.0,74,>12 months,">2,500 sqft"
+Porter / North Mass Ave,,2024.0,14,>12 months,Area not reported
+East Cambridge,,2021.0,50,>12 months,Area not reported
+East Cambridge,1498.0,2025.0,2,<3 months,"1,000–2,500 sqft"
+Inman Square,,2024.0,14,>12 months,Area not reported
+East Cambridge,1600.0,2023.0,26,>12 months,"1,000–2,500 sqft"
+Central Square,,2024.0,14,>12 months,Area not reported
+Lower Massachusetts Ave,2500.0,2017.0,98,>12 months,"1,000–2,500 sqft"
+Inman Square,,2020.0,62,>12 months,Area not reported
+Porter / North Mass Ave,1800.0,2022.0,38,>12 months,"1,000–2,500 sqft"
+East Cambridge,,2023.0,26,>12 months,Area not reported
+East Cambridge,,2023.0,26,>12 months,Area not reported
+Harvard Square,5193.0,2019.0,74,>12 months,">2,500 sqft"
+East Cambridge,1000.0,2023.0,26,>12 months,"<1,000 sqft"
+Central Square,5794.0,2020.0,62,>12 months,">2,500 sqft"
+Porter / North Mass Ave,,2021.0,50,>12 months,Area not reported
+Smaller Districts,4675.0,2022.0,38,>12 months,">2,500 sqft"
+Harvard Square,,2017.0,98,>12 months,Area not reported
+Central Square,,2023.0,26,>12 months,Area not reported
+Kendall Square,,2024.0,14,>12 months,Area not reported
+Kendall Square,1241.0,2018.0,86,>12 months,"1,000–2,500 sqft"
+Smaller Districts,1000.0,2024.0,14,>12 months,"<1,000 sqft"
+Porter / North Mass Ave,4325.0,2024.0,14,>12 months,">2,500 sqft"

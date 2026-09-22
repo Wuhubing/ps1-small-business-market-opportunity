@@ -1,0 +1,770 @@
+[
+  {
+    "record_id": 1,
+    "district": "Harvard Square",
+    "square_feet": null,
+    "vacancy_months": 98,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 2,
+    "district": "Central Square",
+    "square_feet": null,
+    "vacancy_months": 98,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 3,
+    "district": "Lower Massachusetts Ave",
+    "square_feet": 2464.0,
+    "vacancy_months": 110,
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 4,
+    "district": "Alewife / Fresh Pond",
+    "square_feet": 5100.0,
+    "vacancy_months": 74,
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft"
+  },
+  {
+    "record_id": 5,
+    "district": "Porter / North Mass Ave",
+    "square_feet": null,
+    "vacancy_months": 14,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 6,
+    "district": "Central Square",
+    "square_feet": 462.0,
+    "vacancy_months": 26,
+    "age_bucket": ">12 months",
+    "area_bucket": "<1,000 sqft"
+  },
+  {
+    "record_id": 7,
+    "district": "Central Square",
+    "square_feet": null,
+    "vacancy_months": 2,
+    "age_bucket": "<3 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 8,
+    "district": "Inman Square",
+    "square_feet": null,
+    "vacancy_months": 14,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 9,
+    "district": "East Cambridge",
+    "square_feet": 8002.0,
+    "vacancy_months": 2,
+    "age_bucket": "<3 months",
+    "area_bucket": ">2,500 sqft"
+  },
+  {
+    "record_id": 10,
+    "district": "East Cambridge",
+    "square_feet": null,
+    "vacancy_months": 38,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 11,
+    "district": "East Cambridge",
+    "square_feet": 3123.0,
+    "vacancy_months": 2,
+    "age_bucket": "<3 months",
+    "area_bucket": ">2,500 sqft"
+  },
+  {
+    "record_id": 12,
+    "district": "Harvard Square",
+    "square_feet": 2206.0,
+    "vacancy_months": 26,
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 13,
+    "district": "East Cambridge",
+    "square_feet": 900.0,
+    "vacancy_months": 26,
+    "age_bucket": ">12 months",
+    "area_bucket": "<1,000 sqft"
+  },
+  {
+    "record_id": 14,
+    "district": "Harvard Square",
+    "square_feet": null,
+    "vacancy_months": 50,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 15,
+    "district": "Smaller Districts",
+    "square_feet": 1660.0,
+    "vacancy_months": 86,
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 16,
+    "district": "Inman Square",
+    "square_feet": null,
+    "vacancy_months": 14,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 17,
+    "district": "Porter / North Mass Ave",
+    "square_feet": 1550.0,
+    "vacancy_months": 74,
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 18,
+    "district": "East Cambridge",
+    "square_feet": 3825.5,
+    "vacancy_months": 14,
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft"
+  },
+  {
+    "record_id": 19,
+    "district": "Porter / North Mass Ave",
+    "square_feet": 2417.0,
+    "vacancy_months": 14,
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 20,
+    "district": "Kendall Square",
+    "square_feet": null,
+    "vacancy_months": 26,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 21,
+    "district": "Smaller Districts",
+    "square_feet": 2908.0,
+    "vacancy_months": 122,
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft"
+  },
+  {
+    "record_id": 22,
+    "district": "Alewife / Fresh Pond",
+    "square_feet": null,
+    "vacancy_months": 38,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 23,
+    "district": "Lower Massachusetts Ave",
+    "square_feet": 3502.0,
+    "vacancy_months": 62,
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft"
+  },
+  {
+    "record_id": 24,
+    "district": "Central Square",
+    "square_feet": 1128.0,
+    "vacancy_months": 26,
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 25,
+    "district": "Inman Square",
+    "square_feet": 1502.0,
+    "vacancy_months": 62,
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 26,
+    "district": "Porter / North Mass Ave",
+    "square_feet": 3750.0,
+    "vacancy_months": 26,
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft"
+  },
+  {
+    "record_id": 27,
+    "district": "East Cambridge",
+    "square_feet": 3171.0,
+    "vacancy_months": 74,
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft"
+  },
+  {
+    "record_id": 28,
+    "district": "East Cambridge",
+    "square_feet": 1805.0,
+    "vacancy_months": 38,
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 29,
+    "district": "Lower Massachusetts Ave",
+    "square_feet": null,
+    "vacancy_months": 2,
+    "age_bucket": "<3 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 30,
+    "district": "East Cambridge",
+    "square_feet": 1200.0,
+    "vacancy_months": 26,
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 31,
+    "district": "East Cambridge",
+    "square_feet": null,
+    "vacancy_months": 50,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 32,
+    "district": "Smaller Districts",
+    "square_feet": null,
+    "vacancy_months": 2,
+    "age_bucket": "<3 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 33,
+    "district": "Kendall Square",
+    "square_feet": 6500.0,
+    "vacancy_months": 14,
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft"
+  },
+  {
+    "record_id": 34,
+    "district": "Central Square",
+    "square_feet": 9108.0,
+    "vacancy_months": 62,
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft"
+  },
+  {
+    "record_id": 35,
+    "district": "Huron / Observatory Hill",
+    "square_feet": 2000.0,
+    "vacancy_months": 50,
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 36,
+    "district": "Porter / North Mass Ave",
+    "square_feet": 2993.0,
+    "vacancy_months": 14,
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft"
+  },
+  {
+    "record_id": 37,
+    "district": "Central Square",
+    "square_feet": null,
+    "vacancy_months": 2,
+    "age_bucket": "<3 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 38,
+    "district": "Harvard Square",
+    "square_feet": null,
+    "vacancy_months": 158,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 39,
+    "district": "Lower Massachusetts Ave",
+    "square_feet": null,
+    "vacancy_months": 2,
+    "age_bucket": "<3 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 40,
+    "district": "Alewife / Fresh Pond",
+    "square_feet": 3218.0,
+    "vacancy_months": 14,
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft"
+  },
+  {
+    "record_id": 41,
+    "district": "East Cambridge",
+    "square_feet": 8850.0,
+    "vacancy_months": 26,
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft"
+  },
+  {
+    "record_id": 42,
+    "district": "East Cambridge",
+    "square_feet": 1175.0,
+    "vacancy_months": 50,
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 43,
+    "district": "Harvard Square",
+    "square_feet": 1000.0,
+    "vacancy_months": 2,
+    "age_bucket": "<3 months",
+    "area_bucket": "<1,000 sqft"
+  },
+  {
+    "record_id": 44,
+    "district": "Kendall Square",
+    "square_feet": 1215.0,
+    "vacancy_months": 14,
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 45,
+    "district": "Central Square",
+    "square_feet": 2084.0,
+    "vacancy_months": 98,
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 46,
+    "district": "East Cambridge",
+    "square_feet": 1000.0,
+    "vacancy_months": 26,
+    "age_bucket": ">12 months",
+    "area_bucket": "<1,000 sqft"
+  },
+  {
+    "record_id": 47,
+    "district": "Harvard Square",
+    "square_feet": 7518.0,
+    "vacancy_months": 2,
+    "age_bucket": "<3 months",
+    "area_bucket": ">2,500 sqft"
+  },
+  {
+    "record_id": 48,
+    "district": "Inman Square",
+    "square_feet": 2372.0,
+    "vacancy_months": 62,
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 49,
+    "district": "East Cambridge",
+    "square_feet": 6424.0,
+    "vacancy_months": 26,
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft"
+  },
+  {
+    "record_id": 50,
+    "district": "Lower Massachusetts Ave",
+    "square_feet": null,
+    "vacancy_months": 2,
+    "age_bucket": "<3 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 51,
+    "district": "Central Square",
+    "square_feet": 1780.0,
+    "vacancy_months": 86,
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 52,
+    "district": "Huron / Observatory Hill",
+    "square_feet": 3920.0,
+    "vacancy_months": 14,
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft"
+  },
+  {
+    "record_id": 53,
+    "district": "Harvard Square",
+    "square_feet": null,
+    "vacancy_months": 62,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 54,
+    "district": "Porter / North Mass Ave",
+    "square_feet": 650.0,
+    "vacancy_months": 50,
+    "age_bucket": ">12 months",
+    "area_bucket": "<1,000 sqft"
+  },
+  {
+    "record_id": 55,
+    "district": "Porter / North Mass Ave",
+    "square_feet": null,
+    "vacancy_months": 2,
+    "age_bucket": "<3 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 56,
+    "district": "Porter / North Mass Ave",
+    "square_feet": 5126.0,
+    "vacancy_months": 2,
+    "age_bucket": "<3 months",
+    "area_bucket": ">2,500 sqft"
+  },
+  {
+    "record_id": 57,
+    "district": "Central Square",
+    "square_feet": null,
+    "vacancy_months": 62,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 58,
+    "district": "East Cambridge",
+    "square_feet": 4444.0,
+    "vacancy_months": 38,
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft"
+  },
+  {
+    "record_id": 59,
+    "district": "Smaller Districts",
+    "square_feet": null,
+    "vacancy_months": 14,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 60,
+    "district": "Kendall Square",
+    "square_feet": 5800.0,
+    "vacancy_months": 2,
+    "age_bucket": "<3 months",
+    "area_bucket": ">2,500 sqft"
+  },
+  {
+    "record_id": 61,
+    "district": "Central Square",
+    "square_feet": null,
+    "vacancy_months": 2,
+    "age_bucket": "<3 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 62,
+    "district": "Porter / North Mass Ave",
+    "square_feet": null,
+    "vacancy_months": 38,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 63,
+    "district": "East Cambridge",
+    "square_feet": 791.0,
+    "vacancy_months": 26,
+    "age_bucket": ">12 months",
+    "area_bucket": "<1,000 sqft"
+  },
+  {
+    "record_id": 64,
+    "district": "Harvard Square",
+    "square_feet": null,
+    "vacancy_months": 2,
+    "age_bucket": "<3 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 65,
+    "district": "Kendall Square",
+    "square_feet": 1111.0,
+    "vacancy_months": 14,
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 66,
+    "district": "East Cambridge",
+    "square_feet": 2400.0,
+    "vacancy_months": 62,
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 67,
+    "district": "Smaller Districts",
+    "square_feet": 1700.0,
+    "vacancy_months": 38,
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 68,
+    "district": "Harvard Square",
+    "square_feet": null,
+    "vacancy_months": 62,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 69,
+    "district": "Kendall Square",
+    "square_feet": null,
+    "vacancy_months": 14,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 70,
+    "district": "Central Square",
+    "square_feet": null,
+    "vacancy_months": 62,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 71,
+    "district": "East Cambridge",
+    "square_feet": 1758.0,
+    "vacancy_months": 2,
+    "age_bucket": "<3 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 72,
+    "district": "Central Square",
+    "square_feet": null,
+    "vacancy_months": 86,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 73,
+    "district": "Lower Massachusetts Ave",
+    "square_feet": null,
+    "vacancy_months": 74,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 74,
+    "district": "Harvard Square",
+    "square_feet": 4002.0,
+    "vacancy_months": 74,
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft"
+  },
+  {
+    "record_id": 75,
+    "district": "Porter / North Mass Ave",
+    "square_feet": null,
+    "vacancy_months": 14,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 76,
+    "district": "East Cambridge",
+    "square_feet": null,
+    "vacancy_months": 50,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 77,
+    "district": "East Cambridge",
+    "square_feet": 1498.0,
+    "vacancy_months": 2,
+    "age_bucket": "<3 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 78,
+    "district": "Inman Square",
+    "square_feet": null,
+    "vacancy_months": 14,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 79,
+    "district": "East Cambridge",
+    "square_feet": 1600.0,
+    "vacancy_months": 26,
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 80,
+    "district": "Central Square",
+    "square_feet": null,
+    "vacancy_months": 14,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 81,
+    "district": "Lower Massachusetts Ave",
+    "square_feet": 2500.0,
+    "vacancy_months": 98,
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 82,
+    "district": "Inman Square",
+    "square_feet": null,
+    "vacancy_months": 62,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 83,
+    "district": "Porter / North Mass Ave",
+    "square_feet": 1800.0,
+    "vacancy_months": 38,
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 84,
+    "district": "East Cambridge",
+    "square_feet": null,
+    "vacancy_months": 26,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 85,
+    "district": "East Cambridge",
+    "square_feet": null,
+    "vacancy_months": 26,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 86,
+    "district": "Harvard Square",
+    "square_feet": 5193.0,
+    "vacancy_months": 74,
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft"
+  },
+  {
+    "record_id": 87,
+    "district": "East Cambridge",
+    "square_feet": 1000.0,
+    "vacancy_months": 26,
+    "age_bucket": ">12 months",
+    "area_bucket": "<1,000 sqft"
+  },
+  {
+    "record_id": 88,
+    "district": "Central Square",
+    "square_feet": 5794.0,
+    "vacancy_months": 62,
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft"
+  },
+  {
+    "record_id": 89,
+    "district": "Porter / North Mass Ave",
+    "square_feet": null,
+    "vacancy_months": 50,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 90,
+    "district": "Smaller Districts",
+    "square_feet": 4675.0,
+    "vacancy_months": 38,
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft"
+  },
+  {
+    "record_id": 91,
+    "district": "Harvard Square",
+    "square_feet": null,
+    "vacancy_months": 98,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 92,
+    "district": "Central Square",
+    "square_feet": null,
+    "vacancy_months": 26,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 93,
+    "district": "Kendall Square",
+    "square_feet": null,
+    "vacancy_months": 14,
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported"
+  },
+  {
+    "record_id": 94,
+    "district": "Kendall Square",
+    "square_feet": 1241.0,
+    "vacancy_months": 86,
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft"
+  },
+  {
+    "record_id": 95,
+    "district": "Smaller Districts",
+    "square_feet": 1000.0,
+    "vacancy_months": 14,
+    "age_bucket": ">12 months",
+    "area_bucket": "<1,000 sqft"
+  },
+  {
+    "record_id": 96,
+    "district": "Porter / North Mass Ave",
+    "square_feet": 4325.0,
+    "vacancy_months": 14,
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft"
+  }
+]

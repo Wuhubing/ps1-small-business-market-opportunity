@@ -1,0 +1,254 @@
+[
+  {
+    "district": "Alewife / Fresh Pond",
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft",
+    "storefronts": 2
+  },
+  {
+    "district": "Alewife / Fresh Pond",
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported",
+    "storefronts": 1
+  },
+  {
+    "district": "Central Square",
+    "age_bucket": "<3 months",
+    "area_bucket": "Area not reported",
+    "storefronts": 3
+  },
+  {
+    "district": "Central Square",
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft",
+    "storefronts": 3
+  },
+  {
+    "district": "Central Square",
+    "age_bucket": ">12 months",
+    "area_bucket": "<1,000 sqft",
+    "storefronts": 1
+  },
+  {
+    "district": "Central Square",
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft",
+    "storefronts": 2
+  },
+  {
+    "district": "Central Square",
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported",
+    "storefronts": 6
+  },
+  {
+    "district": "East Cambridge",
+    "age_bucket": "<3 months",
+    "area_bucket": "1,000–2,500 sqft",
+    "storefronts": 2
+  },
+  {
+    "district": "East Cambridge",
+    "age_bucket": "<3 months",
+    "area_bucket": ">2,500 sqft",
+    "storefronts": 2
+  },
+  {
+    "district": "East Cambridge",
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft",
+    "storefronts": 5
+  },
+  {
+    "district": "East Cambridge",
+    "age_bucket": ">12 months",
+    "area_bucket": "<1,000 sqft",
+    "storefronts": 4
+  },
+  {
+    "district": "East Cambridge",
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft",
+    "storefronts": 5
+  },
+  {
+    "district": "East Cambridge",
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported",
+    "storefronts": 5
+  },
+  {
+    "district": "Harvard Square",
+    "age_bucket": "<3 months",
+    "area_bucket": "<1,000 sqft",
+    "storefronts": 1
+  },
+  {
+    "district": "Harvard Square",
+    "age_bucket": "<3 months",
+    "area_bucket": ">2,500 sqft",
+    "storefronts": 1
+  },
+  {
+    "district": "Harvard Square",
+    "age_bucket": "<3 months",
+    "area_bucket": "Area not reported",
+    "storefronts": 1
+  },
+  {
+    "district": "Harvard Square",
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft",
+    "storefronts": 1
+  },
+  {
+    "district": "Harvard Square",
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft",
+    "storefronts": 2
+  },
+  {
+    "district": "Harvard Square",
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported",
+    "storefronts": 6
+  },
+  {
+    "district": "Huron / Observatory Hill",
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft",
+    "storefronts": 1
+  },
+  {
+    "district": "Huron / Observatory Hill",
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft",
+    "storefronts": 1
+  },
+  {
+    "district": "Inman Square",
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft",
+    "storefronts": 2
+  },
+  {
+    "district": "Inman Square",
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported",
+    "storefronts": 4
+  },
+  {
+    "district": "Kendall Square",
+    "age_bucket": "<3 months",
+    "area_bucket": ">2,500 sqft",
+    "storefronts": 1
+  },
+  {
+    "district": "Kendall Square",
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft",
+    "storefronts": 3
+  },
+  {
+    "district": "Kendall Square",
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft",
+    "storefronts": 1
+  },
+  {
+    "district": "Kendall Square",
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported",
+    "storefronts": 3
+  },
+  {
+    "district": "Lower Massachusetts Ave",
+    "age_bucket": "<3 months",
+    "area_bucket": "Area not reported",
+    "storefronts": 3
+  },
+  {
+    "district": "Lower Massachusetts Ave",
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft",
+    "storefronts": 2
+  },
+  {
+    "district": "Lower Massachusetts Ave",
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft",
+    "storefronts": 1
+  },
+  {
+    "district": "Lower Massachusetts Ave",
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported",
+    "storefronts": 1
+  },
+  {
+    "district": "Porter / North Mass Ave",
+    "age_bucket": "<3 months",
+    "area_bucket": ">2,500 sqft",
+    "storefronts": 1
+  },
+  {
+    "district": "Porter / North Mass Ave",
+    "age_bucket": "<3 months",
+    "area_bucket": "Area not reported",
+    "storefronts": 1
+  },
+  {
+    "district": "Porter / North Mass Ave",
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft",
+    "storefronts": 3
+  },
+  {
+    "district": "Porter / North Mass Ave",
+    "age_bucket": ">12 months",
+    "area_bucket": "<1,000 sqft",
+    "storefronts": 1
+  },
+  {
+    "district": "Porter / North Mass Ave",
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft",
+    "storefronts": 3
+  },
+  {
+    "district": "Porter / North Mass Ave",
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported",
+    "storefronts": 4
+  },
+  {
+    "district": "Smaller Districts",
+    "age_bucket": "<3 months",
+    "area_bucket": "Area not reported",
+    "storefronts": 1
+  },
+  {
+    "district": "Smaller Districts",
+    "age_bucket": ">12 months",
+    "area_bucket": "1,000–2,500 sqft",
+    "storefronts": 2
+  },
+  {
+    "district": "Smaller Districts",
+    "age_bucket": ">12 months",
+    "area_bucket": "<1,000 sqft",
+    "storefronts": 1
+  },
+  {
+    "district": "Smaller Districts",
+    "age_bucket": ">12 months",
+    "area_bucket": ">2,500 sqft",
+    "storefronts": 2
+  },
+  {
+    "district": "Smaller Districts",
+    "age_bucket": ">12 months",
+    "area_bucket": "Area not reported",
+    "storefronts": 1
+  }
+]

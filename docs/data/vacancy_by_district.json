@@ -1,0 +1,758 @@
+[
+  {
+    "district": "Alewife / Fresh Pond",
+    "vacant_storefronts": 3,
+    "median_square_feet": 2500.0,
+    "average_vacancy_months": null,
+    "snapshot": "2019-04"
+  },
+  {
+    "district": "Central Square",
+    "vacant_storefronts": 7,
+    "median_square_feet": 2838.0,
+    "average_vacancy_months": null,
+    "snapshot": "2019-04"
+  },
+  {
+    "district": "East Cambridge",
+    "vacant_storefronts": 6,
+    "median_square_feet": 2419.5,
+    "average_vacancy_months": null,
+    "snapshot": "2019-04"
+  },
+  {
+    "district": "Harvard Square",
+    "vacant_storefronts": 18,
+    "median_square_feet": 2073.0,
+    "average_vacancy_months": null,
+    "snapshot": "2019-04"
+  },
+  {
+    "district": "Inman Square",
+    "vacant_storefronts": 3,
+    "median_square_feet": 1366.0,
+    "average_vacancy_months": null,
+    "snapshot": "2019-04"
+  },
+  {
+    "district": "Porter / North Mass Ave",
+    "vacant_storefronts": 12,
+    "median_square_feet": 1550.0,
+    "average_vacancy_months": null,
+    "snapshot": "2019-04"
+  },
+  {
+    "district": "Smaller Districts",
+    "vacant_storefronts": 7,
+    "median_square_feet": 2098.0,
+    "average_vacancy_months": null,
+    "snapshot": "2019-04"
+  },
+  {
+    "district": "Alewife / Fresh Pond",
+    "vacant_storefronts": 3,
+    "median_square_feet": 3391.0,
+    "average_vacancy_months": null,
+    "snapshot": "2019-11"
+  },
+  {
+    "district": "Central Square",
+    "vacant_storefronts": 7,
+    "median_square_feet": 3146.0,
+    "average_vacancy_months": null,
+    "snapshot": "2019-11"
+  },
+  {
+    "district": "East Cambridge",
+    "vacant_storefronts": 7,
+    "median_square_feet": 2339.0,
+    "average_vacancy_months": null,
+    "snapshot": "2019-11"
+  },
+  {
+    "district": "Harvard Square",
+    "vacant_storefronts": 15,
+    "median_square_feet": 3654.0,
+    "average_vacancy_months": null,
+    "snapshot": "2019-11"
+  },
+  {
+    "district": "Huron / Observatory Hill",
+    "vacant_storefronts": 1,
+    "median_square_feet": 6000.0,
+    "average_vacancy_months": null,
+    "snapshot": "2019-11"
+  },
+  {
+    "district": "Inman Square",
+    "vacant_storefronts": 4,
+    "median_square_feet": 1366.0,
+    "average_vacancy_months": null,
+    "snapshot": "2019-11"
+  },
+  {
+    "district": "Porter / North Mass Ave",
+    "vacant_storefronts": 10,
+    "median_square_feet": 1469.0,
+    "average_vacancy_months": null,
+    "snapshot": "2019-11"
+  },
+  {
+    "district": "Smaller Districts",
+    "vacant_storefronts": 6,
+    "median_square_feet": 2688.0,
+    "average_vacancy_months": null,
+    "snapshot": "2019-11"
+  },
+  {
+    "district": "Alewife / Fresh Pond",
+    "vacant_storefronts": 6,
+    "median_square_feet": 2945.5,
+    "average_vacancy_months": null,
+    "snapshot": "2020-04"
+  },
+  {
+    "district": "Central Square",
+    "vacant_storefronts": 10,
+    "median_square_feet": 2910.0,
+    "average_vacancy_months": null,
+    "snapshot": "2020-04"
+  },
+  {
+    "district": "East Cambridge",
+    "vacant_storefronts": 13,
+    "median_square_feet": 2700.0,
+    "average_vacancy_months": null,
+    "snapshot": "2020-04"
+  },
+  {
+    "district": "Harvard Square",
+    "vacant_storefronts": 24,
+    "median_square_feet": 3307.5,
+    "average_vacancy_months": null,
+    "snapshot": "2020-04"
+  },
+  {
+    "district": "Huron / Observatory Hill",
+    "vacant_storefronts": 1,
+    "median_square_feet": 6000.0,
+    "average_vacancy_months": null,
+    "snapshot": "2020-04"
+  },
+  {
+    "district": "Inman Square",
+    "vacant_storefronts": 3,
+    "median_square_feet": 9096.0,
+    "average_vacancy_months": null,
+    "snapshot": "2020-04"
+  },
+  {
+    "district": "Kendall Square",
+    "vacant_storefronts": 1,
+    "median_square_feet": null,
+    "average_vacancy_months": null,
+    "snapshot": "2020-04"
+  },
+  {
+    "district": "Porter / North Mass Ave",
+    "vacant_storefronts": 15,
+    "median_square_feet": 1674.0,
+    "average_vacancy_months": null,
+    "snapshot": "2020-04"
+  },
+  {
+    "district": "Smaller Districts",
+    "vacant_storefronts": 13,
+    "median_square_feet": 2688.0,
+    "average_vacancy_months": null,
+    "snapshot": "2020-04"
+  },
+  {
+    "district": "Alewife / Fresh Pond",
+    "vacant_storefronts": 6,
+    "median_square_feet": 2945.5,
+    "average_vacancy_months": null,
+    "snapshot": "2020-10"
+  },
+  {
+    "district": "Central Square",
+    "vacant_storefronts": 17,
+    "median_square_feet": 2560.0,
+    "average_vacancy_months": null,
+    "snapshot": "2020-10"
+  },
+  {
+    "district": "East Cambridge",
+    "vacant_storefronts": 18,
+    "median_square_feet": 2835.5,
+    "average_vacancy_months": null,
+    "snapshot": "2020-10"
+  },
+  {
+    "district": "Harvard Square",
+    "vacant_storefronts": 37,
+    "median_square_feet": 3307.5,
+    "average_vacancy_months": null,
+    "snapshot": "2020-10"
+  },
+  {
+    "district": "Huron / Observatory Hill",
+    "vacant_storefronts": 3,
+    "median_square_feet": 3750.0,
+    "average_vacancy_months": null,
+    "snapshot": "2020-10"
+  },
+  {
+    "district": "Inman Square",
+    "vacant_storefronts": 7,
+    "median_square_feet": 9096.0,
+    "average_vacancy_months": null,
+    "snapshot": "2020-10"
+  },
+  {
+    "district": "Kendall Square",
+    "vacant_storefronts": 10,
+    "median_square_feet": 2484.5,
+    "average_vacancy_months": null,
+    "snapshot": "2020-10"
+  },
+  {
+    "district": "Porter / North Mass Ave",
+    "vacant_storefronts": 19,
+    "median_square_feet": 1799.0,
+    "average_vacancy_months": null,
+    "snapshot": "2020-10"
+  },
+  {
+    "district": "Smaller Districts",
+    "vacant_storefronts": 11,
+    "median_square_feet": 2636.5,
+    "average_vacancy_months": null,
+    "snapshot": "2020-10"
+  },
+  {
+    "district": "Alewife / Fresh Pond",
+    "vacant_storefronts": 6,
+    "median_square_feet": 2945.5,
+    "average_vacancy_months": null,
+    "snapshot": "2021-05"
+  },
+  {
+    "district": "Central Square",
+    "vacant_storefronts": 14,
+    "median_square_feet": 2820.0,
+    "average_vacancy_months": null,
+    "snapshot": "2021-05"
+  },
+  {
+    "district": "East Cambridge",
+    "vacant_storefronts": 13,
+    "median_square_feet": 3171.0,
+    "average_vacancy_months": null,
+    "snapshot": "2021-05"
+  },
+  {
+    "district": "Harvard Square",
+    "vacant_storefronts": 35,
+    "median_square_feet": 4000.0,
+    "average_vacancy_months": null,
+    "snapshot": "2021-05"
+  },
+  {
+    "district": "Huron / Observatory Hill",
+    "vacant_storefronts": 3,
+    "median_square_feet": 4000.0,
+    "average_vacancy_months": null,
+    "snapshot": "2021-05"
+  },
+  {
+    "district": "Inman Square",
+    "vacant_storefronts": 9,
+    "median_square_feet": 1731.0,
+    "average_vacancy_months": null,
+    "snapshot": "2021-05"
+  },
+  {
+    "district": "Kendall Square",
+    "vacant_storefronts": 13,
+    "median_square_feet": 2725.5,
+    "average_vacancy_months": null,
+    "snapshot": "2021-05"
+  },
+  {
+    "district": "Porter / North Mass Ave",
+    "vacant_storefronts": 18,
+    "median_square_feet": 1674.5,
+    "average_vacancy_months": null,
+    "snapshot": "2021-05"
+  },
+  {
+    "district": "Smaller Districts",
+    "vacant_storefronts": 9,
+    "median_square_feet": 2284.0,
+    "average_vacancy_months": null,
+    "snapshot": "2021-05"
+  },
+  {
+    "district": "Alewife / Fresh Pond",
+    "vacant_storefronts": 5,
+    "median_square_feet": 3391.0,
+    "average_vacancy_months": null,
+    "snapshot": "2021-10"
+  },
+  {
+    "district": "Central Square",
+    "vacant_storefronts": 12,
+    "median_square_feet": 4100.0,
+    "average_vacancy_months": null,
+    "snapshot": "2021-10"
+  },
+  {
+    "district": "East Cambridge",
+    "vacant_storefronts": 13,
+    "median_square_feet": 3794.5,
+    "average_vacancy_months": null,
+    "snapshot": "2021-10"
+  },
+  {
+    "district": "Harvard Square",
+    "vacant_storefronts": 35,
+    "median_square_feet": 4000.0,
+    "average_vacancy_months": null,
+    "snapshot": "2021-10"
+  },
+  {
+    "district": "Huron / Observatory Hill",
+    "vacant_storefronts": 3,
+    "median_square_feet": 4000.0,
+    "average_vacancy_months": null,
+    "snapshot": "2021-10"
+  },
+  {
+    "district": "Inman Square",
+    "vacant_storefronts": 7,
+    "median_square_feet": 1502.0,
+    "average_vacancy_months": null,
+    "snapshot": "2021-10"
+  },
+  {
+    "district": "Kendall Square",
+    "vacant_storefronts": 10,
+    "median_square_feet": 2725.5,
+    "average_vacancy_months": null,
+    "snapshot": "2021-10"
+  },
+  {
+    "district": "Porter / North Mass Ave",
+    "vacant_storefronts": 21,
+    "median_square_feet": 2053.5,
+    "average_vacancy_months": null,
+    "snapshot": "2021-10"
+  },
+  {
+    "district": "Smaller Districts",
+    "vacant_storefronts": 5,
+    "median_square_feet": 2908.0,
+    "average_vacancy_months": null,
+    "snapshot": "2021-10"
+  },
+  {
+    "district": "Alewife / Fresh Pond",
+    "vacant_storefronts": 5,
+    "median_square_feet": 3391.0,
+    "average_vacancy_months": null,
+    "snapshot": "2022-06"
+  },
+  {
+    "district": "Central Square",
+    "vacant_storefronts": 14,
+    "median_square_feet": 3800.0,
+    "average_vacancy_months": null,
+    "snapshot": "2022-06"
+  },
+  {
+    "district": "East Cambridge",
+    "vacant_storefronts": 10,
+    "median_square_feet": 3171.0,
+    "average_vacancy_months": null,
+    "snapshot": "2022-06"
+  },
+  {
+    "district": "Harvard Square",
+    "vacant_storefronts": 29,
+    "median_square_feet": 3099.0,
+    "average_vacancy_months": null,
+    "snapshot": "2022-06"
+  },
+  {
+    "district": "Huron / Observatory Hill",
+    "vacant_storefronts": 3,
+    "median_square_feet": 4000.0,
+    "average_vacancy_months": null,
+    "snapshot": "2022-06"
+  },
+  {
+    "district": "Inman Square",
+    "vacant_storefronts": 5,
+    "median_square_feet": 1502.0,
+    "average_vacancy_months": null,
+    "snapshot": "2022-06"
+  },
+  {
+    "district": "Kendall Square",
+    "vacant_storefronts": 11,
+    "median_square_feet": 1909.5,
+    "average_vacancy_months": null,
+    "snapshot": "2022-06"
+  },
+  {
+    "district": "Porter / North Mass Ave",
+    "vacant_storefronts": 19,
+    "median_square_feet": 1799.0,
+    "average_vacancy_months": null,
+    "snapshot": "2022-06"
+  },
+  {
+    "district": "Smaller Districts",
+    "vacant_storefronts": 5,
+    "median_square_feet": 2908.0,
+    "average_vacancy_months": null,
+    "snapshot": "2022-06"
+  },
+  {
+    "district": "Alewife / Fresh Pond",
+    "vacant_storefronts": 4,
+    "median_square_feet": 3800.0,
+    "average_vacancy_months": null,
+    "snapshot": "2022-12"
+  },
+  {
+    "district": "Central Square",
+    "vacant_storefronts": 11,
+    "median_square_feet": 3800.0,
+    "average_vacancy_months": null,
+    "snapshot": "2022-12"
+  },
+  {
+    "district": "East Cambridge",
+    "vacant_storefronts": 7,
+    "median_square_feet": 3171.0,
+    "average_vacancy_months": null,
+    "snapshot": "2022-12"
+  },
+  {
+    "district": "Harvard Square",
+    "vacant_storefronts": 25,
+    "median_square_feet": 4000.0,
+    "average_vacancy_months": null,
+    "snapshot": "2022-12"
+  },
+  {
+    "district": "Huron / Observatory Hill",
+    "vacant_storefronts": 4,
+    "median_square_feet": 3724.0,
+    "average_vacancy_months": null,
+    "snapshot": "2022-12"
+  },
+  {
+    "district": "Inman Square",
+    "vacant_storefronts": 3,
+    "median_square_feet": 1731.0,
+    "average_vacancy_months": null,
+    "snapshot": "2022-12"
+  },
+  {
+    "district": "Kendall Square",
+    "vacant_storefronts": 8,
+    "median_square_feet": 1984.0,
+    "average_vacancy_months": null,
+    "snapshot": "2022-12"
+  },
+  {
+    "district": "Porter / North Mass Ave",
+    "vacant_storefronts": 18,
+    "median_square_feet": 1674.5,
+    "average_vacancy_months": null,
+    "snapshot": "2022-12"
+  },
+  {
+    "district": "Smaller Districts",
+    "vacant_storefronts": 4,
+    "median_square_feet": 2908.0,
+    "average_vacancy_months": null,
+    "snapshot": "2022-12"
+  },
+  {
+    "district": "Alewife / Fresh Pond",
+    "vacant_storefronts": 5,
+    "median_square_feet": 3800.0,
+    "average_vacancy_months": null,
+    "snapshot": "2023-10"
+  },
+  {
+    "district": "Central Square",
+    "vacant_storefronts": 18,
+    "median_square_feet": 3800.0,
+    "average_vacancy_months": null,
+    "snapshot": "2023-10"
+  },
+  {
+    "district": "East Cambridge",
+    "vacant_storefronts": 9,
+    "median_square_feet": 2075.0,
+    "average_vacancy_months": null,
+    "snapshot": "2023-10"
+  },
+  {
+    "district": "Harvard Square",
+    "vacant_storefronts": 21,
+    "median_square_feet": 4000.0,
+    "average_vacancy_months": null,
+    "snapshot": "2023-10"
+  },
+  {
+    "district": "Huron / Observatory Hill",
+    "vacant_storefronts": 2,
+    "median_square_feet": 4000.0,
+    "average_vacancy_months": null,
+    "snapshot": "2023-10"
+  },
+  {
+    "district": "Inman Square",
+    "vacant_storefronts": 4,
+    "median_square_feet": 1731.0,
+    "average_vacancy_months": null,
+    "snapshot": "2023-10"
+  },
+  {
+    "district": "Kendall Square",
+    "vacant_storefronts": 7,
+    "median_square_feet": 3449.5,
+    "average_vacancy_months": null,
+    "snapshot": "2023-10"
+  },
+  {
+    "district": "Porter / North Mass Ave",
+    "vacant_storefronts": 19,
+    "median_square_feet": 1675.0,
+    "average_vacancy_months": null,
+    "snapshot": "2023-10"
+  },
+  {
+    "district": "Smaller Districts",
+    "vacant_storefronts": 3,
+    "median_square_feet": 1660.0,
+    "average_vacancy_months": null,
+    "snapshot": "2023-10"
+  },
+  {
+    "district": "Alewife / Fresh Pond",
+    "vacant_storefronts": 2,
+    "median_square_feet": 5100.0,
+    "average_vacancy_months": 38.0,
+    "snapshot": "2024-03"
+  },
+  {
+    "district": "Central Square",
+    "vacant_storefronts": 17,
+    "median_square_feet": 2808.0,
+    "average_vacancy_months": 39.8,
+    "snapshot": "2024-03"
+  },
+  {
+    "district": "East Cambridge",
+    "vacant_storefronts": 17,
+    "median_square_feet": 2400.0,
+    "average_vacancy_months": 34.1,
+    "snapshot": "2024-03"
+  },
+  {
+    "district": "Harvard Square",
+    "vacant_storefronts": 13,
+    "median_square_feet": 3474.5,
+    "average_vacancy_months": 60.6,
+    "snapshot": "2024-03"
+  },
+  {
+    "district": "Huron / Observatory Hill",
+    "vacant_storefronts": 3,
+    "median_square_feet": 4000.0,
+    "average_vacancy_months": 32.0,
+    "snapshot": "2024-03"
+  },
+  {
+    "district": "Inman Square",
+    "vacant_storefronts": 5,
+    "median_square_feet": 1731.0,
+    "average_vacancy_months": 56.0,
+    "snapshot": "2024-03"
+  },
+  {
+    "district": "Kendall Square",
+    "vacant_storefronts": 6,
+    "median_square_feet": 6265.0,
+    "average_vacancy_months": 36.0,
+    "snapshot": "2024-03"
+  },
+  {
+    "district": "Lower Massachusetts Ave",
+    "vacant_storefronts": 3,
+    "median_square_feet": 2500.0,
+    "average_vacancy_months": 60.0,
+    "snapshot": "2024-03"
+  },
+  {
+    "district": "Porter / North Mass Ave",
+    "vacant_storefronts": 19,
+    "median_square_feet": 1407.0,
+    "average_vacancy_months": 28.2,
+    "snapshot": "2024-03"
+  },
+  {
+    "district": "Smaller Districts",
+    "vacant_storefronts": 3,
+    "median_square_feet": 1660.0,
+    "average_vacancy_months": 88.0,
+    "snapshot": "2024-03"
+  },
+  {
+    "district": "Alewife / Fresh Pond",
+    "vacant_storefronts": 3,
+    "median_square_feet": 4159.0,
+    "average_vacancy_months": 32.0,
+    "snapshot": "2024-11"
+  },
+  {
+    "district": "Central Square",
+    "vacant_storefronts": 19,
+    "median_square_feet": 3532.0,
+    "average_vacancy_months": 37.5,
+    "snapshot": "2024-11"
+  },
+  {
+    "district": "East Cambridge",
+    "vacant_storefronts": 14,
+    "median_square_feet": 2400.0,
+    "average_vacancy_months": 31.4,
+    "snapshot": "2024-11"
+  },
+  {
+    "district": "Harvard Square",
+    "vacant_storefronts": 12,
+    "median_square_feet": 2500.0,
+    "average_vacancy_months": 57.0,
+    "snapshot": "2024-11"
+  },
+  {
+    "district": "Huron / Observatory Hill",
+    "vacant_storefronts": 5,
+    "median_square_feet": 3920.0,
+    "average_vacancy_months": 25.6,
+    "snapshot": "2024-11"
+  },
+  {
+    "district": "Inman Square",
+    "vacant_storefronts": 9,
+    "median_square_feet": 1731.0,
+    "average_vacancy_months": 37.3,
+    "snapshot": "2024-11"
+  },
+  {
+    "district": "Kendall Square",
+    "vacant_storefronts": 11,
+    "median_square_feet": 1483.0,
+    "average_vacancy_months": 22.5,
+    "snapshot": "2024-11"
+  },
+  {
+    "district": "Lower Massachusetts Ave",
+    "vacant_storefronts": 7,
+    "median_square_feet": 2475.0,
+    "average_vacancy_months": 45.1,
+    "snapshot": "2024-11"
+  },
+  {
+    "district": "Porter / North Mass Ave",
+    "vacant_storefronts": 23,
+    "median_square_feet": 1675.0,
+    "average_vacancy_months": 27.5,
+    "snapshot": "2024-11"
+  },
+  {
+    "district": "Smaller Districts",
+    "vacant_storefronts": 6,
+    "median_square_feet": 1680.0,
+    "average_vacancy_months": 58.0,
+    "snapshot": "2024-11"
+  },
+  {
+    "district": "Alewife / Fresh Pond",
+    "vacant_storefronts": 3,
+    "median_square_feet": 4159.0,
+    "average_vacancy_months": 42.0,
+    "snapshot": "2025-09"
+  },
+  {
+    "district": "Central Square",
+    "vacant_storefronts": 15,
+    "median_square_feet": 1932.0,
+    "average_vacancy_months": 47.6,
+    "snapshot": "2025-09"
+  },
+  {
+    "district": "East Cambridge",
+    "vacant_storefronts": 23,
+    "median_square_feet": 1781.5,
+    "average_vacancy_months": 29.7,
+    "snapshot": "2025-09"
+  },
+  {
+    "district": "Harvard Square",
+    "vacant_storefronts": 12,
+    "median_square_feet": 4002.0,
+    "average_vacancy_months": 59.0,
+    "snapshot": "2025-09"
+  },
+  {
+    "district": "Huron / Observatory Hill",
+    "vacant_storefronts": 2,
+    "median_square_feet": 2960.0,
+    "average_vacancy_months": 32.0,
+    "snapshot": "2025-09"
+  },
+  {
+    "district": "Inman Square",
+    "vacant_storefronts": 6,
+    "median_square_feet": 1937.0,
+    "average_vacancy_months": 38.0,
+    "snapshot": "2025-09"
+  },
+  {
+    "district": "Kendall Square",
+    "vacant_storefronts": 8,
+    "median_square_feet": 1241.0,
+    "average_vacancy_months": 23.0,
+    "snapshot": "2025-09"
+  },
+  {
+    "district": "Lower Massachusetts Ave",
+    "vacant_storefronts": 7,
+    "median_square_feet": 2500.0,
+    "average_vacancy_months": 50.0,
+    "snapshot": "2025-09"
+  },
+  {
+    "district": "Porter / North Mass Ave",
+    "vacant_storefronts": 13,
+    "median_square_feet": 2705.0,
+    "average_vacancy_months": 26.9,
+    "snapshot": "2025-09"
+  },
+  {
+    "district": "Smaller Districts",
+    "vacant_storefronts": 7,
+    "median_square_feet": 1700.0,
+    "average_vacancy_months": 44.9,
+    "snapshot": "2025-09"
+  }
+]

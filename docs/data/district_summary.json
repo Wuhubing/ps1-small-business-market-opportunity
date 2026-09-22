@@ -1,0 +1,102 @@
+[
+  {
+    "district": "Central Square",
+    "vacant_storefronts": 15,
+    "average_vacancy_months": 47.6,
+    "total_observed_square_feet": 20356.0,
+    "area_known": 6,
+    "age_known": 15,
+    "long_term_storefronts": 12,
+    "priority_score": 714.0
+  },
+  {
+    "district": "Harvard Square",
+    "vacant_storefronts": 12,
+    "average_vacancy_months": 59.0,
+    "total_observed_square_feet": 19919.0,
+    "area_known": 5,
+    "age_known": 12,
+    "long_term_storefronts": 9,
+    "priority_score": 708.0
+  },
+  {
+    "district": "East Cambridge",
+    "vacant_storefronts": 23,
+    "average_vacancy_months": 29.7,
+    "total_observed_square_feet": 52966.0,
+    "area_known": 18,
+    "age_known": 23,
+    "long_term_storefronts": 19,
+    "priority_score": 682.0
+  },
+  {
+    "district": "Lower Massachusetts Ave",
+    "vacant_storefronts": 7,
+    "average_vacancy_months": 50.0,
+    "total_observed_square_feet": 8466.0,
+    "area_known": 3,
+    "age_known": 7,
+    "long_term_storefronts": 4,
+    "priority_score": 350.0
+  },
+  {
+    "district": "Porter / North Mass Ave",
+    "vacant_storefronts": 13,
+    "average_vacancy_months": 26.9,
+    "total_observed_square_feet": 22611.0,
+    "area_known": 8,
+    "age_known": 13,
+    "long_term_storefronts": 11,
+    "priority_score": 350.0
+  },
+  {
+    "district": "Smaller Districts",
+    "vacant_storefronts": 7,
+    "average_vacancy_months": 44.9,
+    "total_observed_square_feet": 11943.0,
+    "area_known": 5,
+    "age_known": 7,
+    "long_term_storefronts": 6,
+    "priority_score": 314.0
+  },
+  {
+    "district": "Inman Square",
+    "vacant_storefronts": 6,
+    "average_vacancy_months": 38.0,
+    "total_observed_square_feet": 3874.0,
+    "area_known": 2,
+    "age_known": 6,
+    "long_term_storefronts": 6,
+    "priority_score": 228.0
+  },
+  {
+    "district": "Kendall Square",
+    "vacant_storefronts": 8,
+    "average_vacancy_months": 23.0,
+    "total_observed_square_feet": 15867.0,
+    "area_known": 5,
+    "age_known": 8,
+    "long_term_storefronts": 7,
+    "priority_score": 184.0
+  },
+  {
+    "district": "Alewife / Fresh Pond",
+    "vacant_storefronts": 3,
+    "average_vacancy_months": 42.0,
+    "total_observed_square_feet": 8318.0,
+    "area_known": 2,
+    "age_known": 3,
+    "long_term_storefronts": 3,
+    "priority_score": 126.0
+  },
+  {
+    "district": "Huron / Observatory Hill",
+    "vacant_storefronts": 2,
+    "average_vacancy_months": 32.0,
+    "total_observed_square_feet": 5920.0,
+    "area_known": 2,
+    "age_known": 2,
+    "long_term_storefronts": 2,
+    "priority_score": 64.0
+  }
+]
