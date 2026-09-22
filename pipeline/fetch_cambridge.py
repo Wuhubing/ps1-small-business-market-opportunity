@@ -34,6 +34,9 @@ def soda(dataset_id: str, limit: int = 50000) -> tuple[pd.DataFrame, int]:
 def main() -> None:
     vacant, vacant_count = soda("swpv-8j3w")
     cottage, cottage_count = soda("q9yz-5w2v")
+    # Remove owner and leasing-contact fields before writing: the assignment
+    # prohibits collecting names and contact details, and neither is analytical.
+    vacant = vacant.drop(columns=["recorded_owner", "leasing_contact"], errors="ignore")
     raw_dir = ROOT / "data/raw"
     raw_dir.mkdir(parents=True, exist_ok=True)
     vacant.to_csv(raw_dir / "cambridge_vacant_storefronts.csv", index=False)
