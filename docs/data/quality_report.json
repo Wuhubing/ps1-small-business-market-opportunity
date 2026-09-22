@@ -1,0 +1,47 @@
+{
+  "metrics": [
+    {
+      "dataset": "Boston licenses",
+      "field": "coordinates",
+      "missing_percent": 6.2,
+      "scope": "all records"
+    },
+    {
+      "dataset": "Cambridge vacancies",
+      "field": "square footage",
+      "missing_percent": 53.2,
+      "scope": "all snapshots"
+    },
+    {
+      "dataset": "Cambridge vacancies",
+      "field": "vacancy year",
+      "missing_percent": 73.8,
+      "scope": "all snapshots"
+    },
+    {
+      "dataset": "Cambridge vacancies",
+      "field": "square footage",
+      "missing_percent": 41.7,
+      "scope": "latest snapshot"
+    },
+    {
+      "dataset": "Cambridge vacancies",
+      "field": "vacancy year",
+      "missing_percent": 0.0,
+      "scope": "latest snapshot"
+    },
+    {
+      "dataset": "Cottage permits",
+      "field": "process dates",
+      "missing_percent": 0.0,
+      "scope": "all records"
+    },
+    {
+      "dataset": "Census CBP",
+      "field": "establishments/employment/payroll",
+      "missing_percent": 0.0,
+      "scope": "selected counties"
+    }
+  ],
+  "accessed": "2026-09-21"
+}

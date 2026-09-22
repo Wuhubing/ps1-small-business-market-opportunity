@@ -293,6 +293,22 @@ def export_csvs(latest: pd.DataFrame, summary: pd.DataFrame, annual: pd.DataFram
         shutil.copy2(target, DOWNLOADS / filename)
 
 
+def build_quality_report(vacancies: pd.DataFrame, latest: pd.DataFrame) -> None:
+    boston = pd.read_csv(RAW / "boston_food_licenses.csv", low_memory=False)
+    cottage = pd.read_csv(RAW / "cambridge_cottage_food_permits.csv", low_memory=False)
+    cbp = pd.read_csv(RAW / "cbp_ma_counties.csv", low_memory=False)
+    metrics = [
+        {"dataset": "Boston licenses", "field": "coordinates", "missing_percent": round(boston[["latitude", "longitude"]].isna().any(axis=1).mean() * 100, 1), "scope": "all records"},
+        {"dataset": "Cambridge vacancies", "field": "square footage", "missing_percent": round(vacancies["square_feet"].isna().mean() * 100, 1), "scope": "all snapshots"},
+        {"dataset": "Cambridge vacancies", "field": "vacancy year", "missing_percent": round(vacancies["vacancy_year"].isna().mean() * 100, 1), "scope": "all snapshots"},
+        {"dataset": "Cambridge vacancies", "field": "square footage", "missing_percent": round(latest["square_feet"].isna().mean() * 100, 1), "scope": "latest snapshot"},
+        {"dataset": "Cambridge vacancies", "field": "vacancy year", "missing_percent": round(latest["vacancy_year"].isna().mean() * 100, 1), "scope": "latest snapshot"},
+        {"dataset": "Cottage permits", "field": "process dates", "missing_percent": round(cottage[["applicant_submit_date", "issue_date"]].isna().any(axis=1).mean() * 100, 1), "scope": "all records"},
+        {"dataset": "Census CBP", "field": "establishments/employment/payroll", "missing_percent": round(cbp[["est", "emp", "ap"]].isna().any(axis=1).mean() * 100, 1), "scope": "selected counties"},
+    ]
+    write_json("quality_report.json", {"metrics": metrics, "accessed": ACCESS_DATE})
+
+
 def main() -> None:
     SITE_DATA.mkdir(parents=True, exist_ok=True)
     (SITE_DATA / "geo_mapping.md").write_text(GEO_MAPPING, encoding="utf-8")
@@ -302,6 +318,7 @@ def main() -> None:
     industry = build_industry_products()
     findings = build_findings(summary, latest)
     write_json("findings.json", findings)
+    build_quality_report(vacancies, latest)
     export_csvs(latest, summary, annual, industry)
     print(f"latest_snapshot={latest.snapshot_date.max().date()} storefronts={len(latest)} districts={latest.district.nunique()}")
     print(f"findings={len(findings['findings'])} recommendations={len(findings['recommendations'])}")
