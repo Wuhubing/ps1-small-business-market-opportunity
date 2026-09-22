@@ -51,6 +51,12 @@ Then open `http://localhost:8765/`.
 
 The published site is hosted on `chatgpt.site`. The repository contains the complete website, processed datasets, reproducible data pipeline, methodology documentation, presentation materials, and project reflection.
 
+## Five-Minute Presentation
+
+Watch the [five-minute narrated site walkthrough](https://cambridge-storefront-opportunity.wuhubing19.chatgpt.site/data.html#presentation) or download the MP4 from that page. The video uses actual website views and filter states, English synthetic narration, and on-screen captions. A transcript and WebVTT captions are included in `docs/media/`.
+
+To regenerate the video on macOS, start the local preview server, run `node scripts/capture_demo.cjs` with Playwright available, and then run `python3 scripts/render_demo.py` with Pillow and FFmpeg installed. The narration source is `presentation/video-scenes.json`. Intermediate media is stored in the ignored `.sites-runtime/video/` directory.
+
 ## Development Record
 
 Detailed commands, results, and exceptions are recorded in `LOG.md`.

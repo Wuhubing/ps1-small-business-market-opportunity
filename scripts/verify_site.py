@@ -6,6 +6,7 @@ import csv
 import json
 import re
 import sys
+from urllib.parse import urlsplit
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -21,7 +22,7 @@ class AssetParser(HTMLParser):
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         values = dict(attrs)
-        key = "href" if tag in {"a", "link"} else "src" if tag == "script" else None
+        key = "href" if tag in {"a", "link"} else "src" if tag in {"script", "source", "track", "video"} else None
         if key and values.get(key):
             self.paths.append(str(values[key]))
 
@@ -54,7 +55,7 @@ def main() -> None:
         for asset in parser.paths:
             if asset.startswith(("http://", "https://", "data:", "#", "mailto:")):
                 continue
-            local = (path.parent / asset.split("?")[0]).resolve()
+            local = (path.parent / urlsplit(asset).path).resolve()
             if not local.exists():
                 fail(f"{name} links to missing local asset {asset}", failures)
 

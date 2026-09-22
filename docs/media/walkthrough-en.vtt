@@ -1,0 +1,109 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.932
+Cambridge Storefront Opportunity helps the city's Community Development Department decide where to investigate vacant commercial spaces first.
+
+00:00:07.932 --> 00:00:16.497
+The decision brief combines reported vacancies, approximate duration, and floor area to guide limited outreach and small-business support resources.
+
+00:00:16.497 --> 00:00:23.722
+This presentation demonstrates the working website, its interactive comparisons, and the limits of what the evidence can support.
+
+00:00:25.000 --> 00:00:32.037
+The dashboard uses the September twenty twenty-five storefront snapshot, not a live inventory of spaces available today.
+
+00:00:32.037 --> 00:00:39.706
+The district chart compares counts and estimated average vacancy months, while the profile chart groups spaces by duration and size.
+
+00:00:39.706 --> 00:00:47.494
+Boston food-license additions provide separate regional context; they are not a direct measure of Cambridge competition or customer demand.
+
+00:00:50.000 --> 00:00:56.866
+The Method page explains collection from Cambridge, Boston, the Census Bureau, and the Bureau of Labor Statistics.
+
+00:00:56.866 --> 00:01:06.104
+The project downloaded its source data on September twenty-first, twenty twenty-six, and generates the displayed measures through a reproducible Python pipeline.
+
+00:01:06.104 --> 00:01:13.272
+Personal contact details are removed, and home addresses and coordinates from cottage-food permits are not retained in the deliverables.
+
+00:01:15.000 --> 00:01:21.673
+Cambridge reports a vacancy year rather than an exact date, so July is assumed when estimating vacancy duration.
+
+00:01:21.673 --> 00:01:28.438
+The priority score multiplies the number of reported storefronts by their estimated average vacancy months within each district.
+
+00:01:28.438 --> 00:01:36.280
+This combines vacancy volume with persistence, but it is an outreach ranking, not a forecast of profitability or investment returns.
+
+00:01:40.000 --> 00:01:47.617
+On Explore, the initial view includes all commercial districts in the latest snapshot, with ninety-six reported storefront records.
+
+00:01:47.617 --> 00:01:56.123
+The left panel controls district selection, reported floor area, and minimum estimated vacancy duration; the chart responds to these selections.
+
+00:01:56.123 --> 00:02:03.060
+The Boston year controls affect the separate license context, so the two record counts should not be confused or combined.
+
+00:02:05.000 --> 00:02:11.478
+Here, East Cambridge is unchecked to demonstrate how a district selection changes the records included in the comparison.
+
+00:02:11.478 --> 00:02:18.137
+The storefront count and chart update together, allowing an analyst to focus the discussion on the remaining commercial districts.
+
+00:02:18.137 --> 00:02:25.874
+The selected filters also appear in the page address, making a particular comparison shareable with colleagues preparing the same briefing.
+
+00:02:30.000 --> 00:02:36.936
+Next, the Districts control switches the same filtered records into a district comparison without resetting the selection.
+
+00:02:36.936 --> 00:02:44.627
+Bar length shows the number of storefront records, while color encodes estimated average duration, giving two views of vacancy pressure.
+
+00:02:44.627 --> 00:02:51.183
+A district with many recent vacancies may need a different response from one with fewer spaces that have remained empty longer.
+
+00:02:55.000 --> 00:03:02.054
+The minimum estimated vacancy is now set to thirty-six months, and the Vacancy profile view groups the remaining spaces.
+
+00:03:02.054 --> 00:03:08.873
+This interaction narrows the question from all reported vacancies to spaces estimated to have been empty for at least three years.
+
+00:03:08.873 --> 00:03:16.648
+The size bands help shape a targeted support proposal, but missing floor area and approximate dates still require case-by-case follow-up.
+
+00:03:20.000 --> 00:03:28.174
+The Data page provides source links, access dates, field definitions, and downloadable files so another person can inspect the evidence.
+
+00:03:28.174 --> 00:03:36.765
+The Cambridge snapshots, Boston licenses, and county industry statistics describe different places and periods and cannot be treated as interchangeable.
+
+00:03:36.765 --> 00:03:44.004
+These downloads and the methodology note make the decision process reviewable, including its cleaning choices and the boundaries of each measure.
+
+00:03:45.000 --> 00:03:51.821
+Central Square has fifteen reported vacant storefronts and ranks first on the combined count-duration score in the latest snapshot.
+
+00:03:51.821 --> 00:03:59.400
+Seventy-nine of ninety-six records with a vacancy year, or eighty-two point three percent, are estimated to exceed twelve months.
+
+00:03:59.400 --> 00:04:08.918
+The permit file contains fifteen cottage-food permits, with a median recorded submission-to-issue interval of twenty-six days; this does not establish expansion demand.
+
+00:04:10.000 --> 00:04:17.015
+First, prioritize an initial outreach cycle in Central and Harvard Squares, then review progress after ninety days.
+
+00:04:17.015 --> 00:04:24.620
+Second, pilot small-space assistance for the thirteen observed spaces below fifteen hundred square feet estimated vacant for more than a year.
+
+00:04:24.620 --> 00:04:33.986
+Third, offer an opt-in pathway for permitted cottage-food operators to explore shared kitchens or storefront testing, without assuming that every operator wants expansion.
+
+00:04:35.000 --> 00:04:42.595
+These administrative records support prioritizing investigation, but cannot explain why a space is empty or prove that public support causes occupancy.
+
+00:04:42.595 --> 00:04:49.413
+Year-only dates create uncertainty of roughly six months, and reported inventories can miss spaces or reflect changing collection practices.
+
+00:04:49.413 --> 00:04:58.993
+Before funding decisions, add rents, lease terms, foot traffic, accessibility, and voluntary stakeholder feedback; use this website as a starting point for that investigation.
