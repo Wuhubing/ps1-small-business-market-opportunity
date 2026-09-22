@@ -37,6 +37,17 @@ def main() -> None:
     # Remove owner and leasing-contact fields before writing: the assignment
     # prohibits collecting names and contact details, and neither is analytical.
     vacant = vacant.drop(columns=["recorded_owner", "leasing_contact"], errors="ignore")
+    # Cottage-food businesses operate from homes. Retain only non-personal
+    # permit process fields; never persist names, contacts, addresses, or exact
+    # coordinates from the source response.
+    safe_cottage_columns = [
+        "id",
+        "status",
+        "applicant_submit_date",
+        "issue_date",
+        "permit_type",
+    ]
+    cottage = cottage[[column for column in safe_cottage_columns if column in cottage.columns]]
     raw_dir = ROOT / "data/raw"
     raw_dir.mkdir(parents=True, exist_ok=True)
     vacant.to_csv(raw_dir / "cambridge_vacant_storefronts.csv", index=False)
