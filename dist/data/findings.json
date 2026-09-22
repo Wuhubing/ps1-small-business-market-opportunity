@@ -28,7 +28,7 @@
       "value": 26,
       "unit": "days",
       "source": "Cambridge Cottage Food Operations Permits",
-      "method": "Difference between issue_date and applicant_submit_date; personal fields removed."
+      "method": "Difference between issue_date and applicant_submit_date; personal fields excluded by server-side projection."
     }
   ],
   "recommendations": [
@@ -57,5 +57,5 @@
       "action": "Invite operators through the City’s own secure records; do not publish or reuse personal contact details."
     }
   ],
-  "generated_at": "2026-09-22T02:59:22.576222+00:00"
+  "generated_at": "2026-09-22T13:48:15.642157+00:00"
 }

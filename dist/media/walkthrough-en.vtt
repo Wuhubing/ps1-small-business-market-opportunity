@@ -1,13 +1,13 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:07.932
-Cambridge Storefront Opportunity helps the city's Community Development Department decide where to investigate vacant commercial spaces first.
+00:00:00.000 --> 00:00:08.260
+Cambridge Storefront Opportunity helps city staff and prospective business owners screen business categories and storefront locations before investing.
 
-00:00:07.932 --> 00:00:16.497
-The decision brief combines reported vacancies, approximate duration, and floor area to guide limited outreach and small-business support resources.
+00:00:08.260 --> 00:00:15.293
+It combines observed vacancies and regional business supply with an editable price and cost scenario to select ideas worth testing.
 
-00:00:16.497 --> 00:00:23.722
-This presentation demonstrates the working website, its interactive comparisons, and the limits of what the evidence can support.
+00:00:15.293 --> 00:00:22.905
+The website separates measured evidence from hypothetical inputs, and does not claim that an empty storefront proves unmet customer demand.
 
 00:00:25.000 --> 00:00:32.037
 The dashboard uses the September twenty twenty-five storefront snapshot, not a live inventory of spaces available today.
@@ -18,14 +18,14 @@ The district chart compares counts and estimated average vacancy months, while t
 00:00:39.706 --> 00:00:47.494
 Boston food-license additions provide separate regional context; they are not a direct measure of Cambridge competition or customer demand.
 
-00:00:50.000 --> 00:00:56.866
-The Method page explains collection from Cambridge, Boston, the Census Bureau, and the Bureau of Labor Statistics.
+00:00:50.000 --> 00:00:56.760
+The Method page explains public data from Cambridge, Boston, the Census Bureau, and the Bureau of Labor Statistics.
 
-00:00:56.866 --> 00:01:06.104
-The project downloaded its source data on September twenty-first, twenty twenty-six, and generates the displayed measures through a reproducible Python pipeline.
+00:00:56.760 --> 00:01:07.118
+Cambridge and Boston were re-fetched on September twenty-second with server-side field selection, excluding names, contacts, home locations and permit identifiers from requests.
 
-00:01:06.104 --> 00:01:13.272
-Personal contact details are removed, and home addresses and coordinates from cottage-food permits are not retained in the deliverables.
+00:01:07.118 --> 00:01:14.005
+The pipeline checks returned fields and row counts and stops on unexpected fields, without falling back to a complete source file.
 
 00:01:15.000 --> 00:01:21.673
 Cambridge reports a vacancy year rather than an exact date, so July is assumed when estimating vacancy duration.
@@ -72,23 +72,23 @@ This interaction narrows the question from all reported vacancies to spaces esti
 00:03:08.873 --> 00:03:16.648
 The size bands help shape a targeted support proposal, but missing floor area and approximate dates still require case-by-case follow-up.
 
-00:03:20.000 --> 00:03:28.174
-The Data page provides source links, access dates, field definitions, and downloadable files so another person can inspect the evidence.
+00:03:20.000 --> 00:03:29.439
+The market opportunity section compares retail, food services, and personal services using Census employer establishments and employment for the selected county.
 
-00:03:28.174 --> 00:03:36.765
-The Cambridge snapshots, Boston licenses, and county industry statistics describe different places and periods and cannot be treated as interchangeable.
+00:03:29.439 --> 00:03:36.904
+Middlesex includes Cambridge, but these are regional supply statistics, not a list of local competitors or evidence of a market gap.
 
-00:03:36.765 --> 00:03:44.004
-These downloads and the methodology note make the decision process reviewable, including its cleaning choices and the boundaries of each measure.
+00:03:36.904 --> 00:03:43.981
+Choose a category to see a concrete pilot concept and the missing price, preference and repeat-purchase evidence needed to validate it.
 
-00:03:45.000 --> 00:03:51.821
-Central Square has fifteen reported vacant storefronts and ranks first on the combined count-duration score in the latest snapshot.
+00:03:45.000 --> 00:03:52.432
+The calculator starts with hypothetical prices and costs, requiring twenty-six daily sales under the displayed default assumptions.
 
-00:03:51.821 --> 00:03:59.400
-Seventy-nine of ninety-six records with a vacancy year, or eighty-two point three percent, are estimated to exceed twelve months.
+00:03:52.432 --> 00:04:00.996
+Here the sale price changes from fifteen to twenty dollars, holding other costs constant; the calculated requirement falls to seventeen sales per day.
 
-00:03:59.400 --> 00:04:08.918
-The permit file contains fifteen cottage-food permits, with a median recorded submission-to-issue interval of twenty-six days; this does not establish expansion demand.
+00:04:00.996 --> 00:04:08.985
+This is a break-even condition, not a demand forecast: customers might buy less at a higher price, so a paid pilot remains essential.
 
 00:04:10.000 --> 00:04:17.015
 First, prioritize an initial outreach cycle in Central and Harvard Squares, then review progress after ninety days.

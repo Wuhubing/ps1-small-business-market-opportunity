@@ -238,7 +238,7 @@ def build_findings(summary: pd.DataFrame, latest: pd.DataFrame) -> dict:
             "value": median_approval,
             "unit": "days",
             "source": "Cambridge Cottage Food Operations Permits",
-            "method": "Difference between issue_date and applicant_submit_date; personal fields removed.",
+            "method": "Difference between issue_date and applicant_submit_date; personal fields excluded by server-side projection.",
         },
     ]
     recommendations = [

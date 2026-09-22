@@ -1,6 +1,6 @@
 # Cambridge Storefront Opportunity
 
-An interactive, traceable, and privacy-conscious data decision tool for the Cambridge Community Development Department. The site helps staff prioritize limited business-recruitment and small-business support resources by identifying commercial districts and storefront types that warrant further investigation.
+An interactive, traceable, and privacy-conscious small-business market opportunity screening tool for Cambridge economic-development staff and prospective business owners. Compare retail, food-service and personal-service categories, investigate storefront availability, and test price and sales assumptions before committing resources. Observed supply statistics, hypothetical scenarios and uncollected demand evidence are explicitly distinguished.
 
 ## Site Contents
 
@@ -15,8 +15,8 @@ An interactive, traceable, and privacy-conscious data decision tool for the Camb
 
 | Data source | Access URL | Accessed |
 |---|---|---|
-| Boston active food establishment licenses | https://data.boston.gov/dataset/5e4182e3-ba1e-4511-88f8-08a70383e1b6/resource/f1e13724-284d-478c-b8bc-ef042aa5b70b/download/tmp3aemwqxo.csv | 2026-09-21 |
-| Cambridge vacant storefronts and cottage-food permits | https://data.cambridgema.gov/resource/swpv-8j3w.json / https://data.cambridgema.gov/resource/q9yz-5w2v.json | 2026-09-21 |
+| Boston active food establishment licenses | https://data.boston.gov/api/3/action/datastore_search (projected fields; resource ID in fetch script) | 2026-09-22 |
+| Cambridge vacant storefronts and cottage-food permits | https://data.cambridgema.gov/resource/swpv-8j3w.json / https://data.cambridgema.gov/resource/q9yz-5w2v.json (projected fields) | 2026-09-22 |
 | U.S. Census County Business Patterns 2022 | https://www2.census.gov/programs-surveys/cbp/datasets/2022/cbp22co.zip | 2026-09-21 |
 | U.S. Bureau of Labor Statistics QCEW, 2024 Q1 | https://data.bls.gov/cew/data/api/2024/1/area/25017.csv / https://data.bls.gov/cew/data/api/2024/1/area/25025.csv | 2026-09-21 |
 
@@ -34,7 +34,9 @@ Run the following commands from the repository root. The pipeline requires `pand
 /opt/anaconda3/bin/python3 scripts/verify_site.py
 ```
 
-Raw data files are excluded from Git. Boston phone-number fields are removed before data are written to disk. Names, contact details, home addresses, and coordinates from cottage-food permits are not retained. Owner and leasing-contact fields from the storefront dataset are also removed.
+Raw data files are excluded from Git. The current Cambridge fetcher uses server-side Socrata `$select` allowlists, and the Boston fetcher uses CKAN `fields` with pagination. Requests exclude names, contact details, street addresses, home locations and permit IDs; Boston coordinates refer only to commercial premises. Unexpected fields fail the pipeline, with no full-file fallback. Earlier versions removed sensitive fields before saving; the 2026-09-22 revision excludes them from the requested response and re-fetches both sources.
+
+The category comparison uses 2022 Census CBP employer establishment and employment counts. The break-even calculator uses editable hypothetical prices and costs, not collected purchasing data. `docs/downloads/market_validation_template.csv` is an unfilled research plan, not a survey dataset. Demand, willingness to pay, rent and repeat purchasing must be validated before investment.
 
 ## Local Preview
 

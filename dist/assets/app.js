@@ -1,6 +1,44 @@
 const DATA = "data/";
 const COLORS = { teal: "#006d68", dark: "#102a36", lime: "#c8e35b", gold: "#e8ae43", pale: "#e8efed" };
 
+async function initMarketOpportunity() {
+  const hypotheses = {
+    "Food services": {code:"722", concept:"Small-format prepared-food or shared-kitchen pilot", evidence:"15 cottage-food permits provide a possible opt-in operator pathway; 13 persistent vacancies under 1,500 sqft provide spaces to investigate. Neither measures buyer demand or food-use suitability.", test:"Compare nearby menus and prices, test the preferred cuisine and acceptable price band anonymously, then record paid orders and repeat purchases in aggregate."},
+    "Retail trade": {code:"44–45", concept:"A focused product-category pop-up", evidence:"Regional retail establishments show existing business supply. The storefront inventory can guide where to investigate a temporary space, but contains no product preferences or sales.", test:"Choose a specific product category, compare local assortments and prices, and measure paid conversion, average basket and repeat purchase frequency in a short pilot."},
+    "Personal services": {code:"812", concept:"An appointment-based personal-service pilot", evidence:"Regional employer counts and average staffing provide sector context, not evidence that a particular service is missing locally. The broad category includes businesses with very different needs.", test:"Select a specific service, check local availability and prices, and measure aggregate bookings, willingness to pay and repeat visits. Verify licensing and fit-out requirements."}
+  };
+  const category = document.getElementById("market-category");
+  function drawHypothesis() {
+    const item = hypotheses[category.value];
+    document.getElementById("market-hypothesis").innerHTML = `<h4>${item.concept}</h4><p><strong>Observed basis:</strong> ${item.evidence}</p><p><strong>Validation needed:</strong> ${item.test}</p>`;
+  }
+  function calculate() {
+    const values = ["price","variable","fixed","days"].map(key => {
+      const input = document.getElementById(`market-${key}`);
+      return input.value.trim() === "" ? NaN : Number(input.value);
+    });
+    const [price, variable, fixed, days] = values;
+    const result = document.getElementById("market-result");
+    if (!values.every(Number.isFinite) || price <= 0 || variable < 0 || fixed < 0 || days < 1 || days > 31 || !Number.isInteger(days)) {
+      result.textContent = "Enter valid costs and a whole number of trading days from 1 to 31."; return;
+    }
+    if (price <= variable) { result.textContent = "No positive contribution per sale: change the price or cost assumption before estimating break-even."; return; }
+    const daily = Math.ceil(fixed / (price-variable) / days);
+    result.textContent = `Scenario only: at least ${daily.toLocaleString()} sales per trading day, with $${(price-variable).toFixed(2)} contribution per sale. This is required sales volume, not evidence that customers will buy.`;
+  }
+  category.addEventListener("change", drawHypothesis); drawHypothesis();
+  document.querySelectorAll('.scenario-inputs input').forEach(el=>el.addEventListener('input',calculate)); calculate();
+  try {
+    const industry = await loadJSON("industry_structure.json");
+    const county = document.getElementById("market-county");
+    function drawTable() {
+      document.getElementById("market-table").innerHTML = industry.cbp_2022.filter(r=>r.county===county.value).map(row=>
+        `<tr><td>${row.industry} (${hypotheses[row.industry].code})</td><td>${row.establishments.toLocaleString()}</td><td>${row.employment.toLocaleString()}</td><td>${row.establishments > 0 ? (row.employment / row.establishments).toFixed(1) : "Not available"}</td></tr>`).join("");
+    }
+    county.addEventListener("change",drawTable); drawTable();
+  } catch (error) { document.getElementById("market-table").innerHTML = '<tr><td colspan="4">Category evidence is unavailable. Please reload.</td></tr>'; }
+}
+
 async function loadJSON(name) {
   const response = await fetch(`${DATA}${name}`);
   if (!response.ok) throw new Error(`Could not load ${name}`);
@@ -236,7 +274,7 @@ async function initQuality() {
 
 document.addEventListener("DOMContentLoaded", () => {
   const page = document.body.dataset.page;
-  if (page === "home") initHome();
+  if (page === "home") { initHome(); initMarketOpportunity(); }
   if (page === "explore") initExplore();
   if (page === "map") initMap();
   if (page === "data" || page === "reflection") initQuality();

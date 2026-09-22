@@ -4,7 +4,7 @@ English synthetic narration (macOS Samantha). Actual website states captured fro
 
 ## 00:00:00 — 01 / The decision and intended user
 
-Cambridge Storefront Opportunity helps the city's Community Development Department decide where to investigate vacant commercial spaces first. The decision brief combines reported vacancies, approximate duration, and floor area to guide limited outreach and small-business support resources. This presentation demonstrates the working website, its interactive comparisons, and the limits of what the evidence can support.
+Cambridge Storefront Opportunity helps city staff and prospective business owners screen business categories and storefront locations before investing. It combines observed vacancies and regional business supply with an editable price and cost scenario to select ideas worth testing. The website separates measured evidence from hypothetical inputs, and does not claim that an empty storefront proves unmet customer demand.
 
 ## 00:00:25 — 02 / Read the decision brief
 
@@ -12,7 +12,7 @@ The dashboard uses the September twenty twenty-five storefront snapshot, not a l
 
 ## 00:00:50 — 03 / Trace the data and protect privacy
 
-The Method page explains collection from Cambridge, Boston, the Census Bureau, and the Bureau of Labor Statistics. The project downloaded its source data on September twenty-first, twenty twenty-six, and generates the displayed measures through a reproducible Python pipeline. Personal contact details are removed, and home addresses and coordinates from cottage-food permits are not retained in the deliverables.
+The Method page explains public data from Cambridge, Boston, the Census Bureau, and the Bureau of Labor Statistics. Cambridge and Boston were re-fetched on September twenty-second with server-side field selection, excluding names, contacts, home locations and permit identifiers from requests. The pipeline checks returned fields and row counts and stops on unexpected fields, without falling back to a complete source file.
 
 ## 00:01:15 — 04 / Understand the measures
 
@@ -34,13 +34,13 @@ Next, the Districts control switches the same filtered records into a district c
 
 The minimum estimated vacancy is now set to thirty-six months, and the Vacancy profile view groups the remaining spaces. This interaction narrows the question from all reported vacancies to spaces estimated to have been empty for at least three years. The size bands help shape a targeted support proposal, but missing floor area and approximate dates still require case-by-case follow-up.
 
-## 00:03:20 — 09 / Inspect sources and download data
+## 00:03:20 — 09 / Compare business-category hypotheses
 
-The Data page provides source links, access dates, field definitions, and downloadable files so another person can inspect the evidence. The Cambridge snapshots, Boston licenses, and county industry statistics describe different places and periods and cannot be treated as interchangeable. These downloads and the methodology note make the decision process reviewable, including its cleaning choices and the boundaries of each measure.
+The market opportunity section compares retail, food services, and personal services using Census employer establishments and employment for the selected county. Middlesex includes Cambridge, but these are regional supply statistics, not a list of local competitors or evidence of a market gap. Choose a category to see a concrete pilot concept and the missing price, preference and repeat-purchase evidence needed to validate it.
 
-## 00:03:45 — 10 / Identify the main findings
+## 00:03:45 — 10 / Test price and sales assumptions
 
-Central Square has fifteen reported vacant storefronts and ranks first on the combined count-duration score in the latest snapshot. Seventy-nine of ninety-six records with a vacancy year, or eighty-two point three percent, are estimated to exceed twelve months. The permit file contains fifteen cottage-food permits, with a median recorded submission-to-issue interval of twenty-six days; this does not establish expansion demand.
+The calculator starts with hypothetical prices and costs, requiring twenty-six daily sales under the displayed default assumptions. Here the sale price changes from fifteen to twenty dollars, holding other costs constant; the calculated requirement falls to seventeen sales per day. This is a break-even condition, not a demand forecast: customers might buy less at a higher price, so a paid pilot remains essential.
 
 ## 00:04:10 — 11 / Turn findings into practical actions
 
