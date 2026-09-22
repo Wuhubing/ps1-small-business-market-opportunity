@@ -1,0 +1,11 @@
+district,vacant_storefronts,average_vacancy_months,total_observed_square_feet,area_known,age_known,long_term_storefronts,priority_score
+Central Square,15,47.6,20356.0,6,15,12,714.0
+Harvard Square,12,59.0,19919.0,5,12,9,708.0
+East Cambridge,23,29.7,52966.0,18,23,19,682.0
+Lower Massachusetts Ave,7,50.0,8466.0,3,7,4,350.0
+Porter / North Mass Ave,13,26.9,22611.0,8,13,11,350.0
+Smaller Districts,7,44.9,11943.0,5,7,6,314.0
+Inman Square,6,38.0,3874.0,2,6,6,228.0
+Kendall Square,8,23.0,15867.0,5,8,7,184.0
+Alewife / Fresh Pond,3,42.0,8318.0,2,3,3,126.0
+Huron / Observatory Hill,2,32.0,5920.0,2,2,2,64.0

@@ -1,0 +1,61 @@
+{
+  "headline": {
+    "text": "Where should Cambridge focus small-business support in September 2025?",
+    "metric": "highest-priority district",
+    "value": "Central Square"
+  },
+  "snapshot": "September 2025",
+  "findings": [
+    {
+      "id": "F1",
+      "text": "Central Square has 15 vacant storefronts in the latest snapshot and the highest count-duration priority score.",
+      "value": 15,
+      "unit": "storefronts",
+      "source": "Cambridge Vacant Storefronts",
+      "method": "Latest snapshot; districts ranked by storefront count × estimated average vacancy months."
+    },
+    {
+      "id": "F2",
+      "text": "Among 96 storefronts with a reported vacancy year, 79 (82.3%) are estimated to have been vacant for more than 12 months.",
+      "value": 82.3,
+      "unit": "percent",
+      "source": "Cambridge Vacant Storefronts",
+      "method": "Latest snapshot; July assumed when only a vacancy year is supplied."
+    },
+    {
+      "id": "F3",
+      "text": "The public permit file contains 15 cottage-food permits; the median recorded submit-to-issue interval is 26 days.",
+      "value": 26,
+      "unit": "days",
+      "source": "Cambridge Cottage Food Operations Permits",
+      "method": "Difference between issue_date and applicant_submit_date; personal fields removed."
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "R1",
+      "text": "Concentrate the first outreach cycle in Central Square and Harvard Square instead of distributing effort evenly.",
+      "supported_by": [
+        "F1"
+      ],
+      "action": "Assign a district lead, contact property stakeholders through internal channels, and review progress after 90 days."
+    },
+    {
+      "id": "R2",
+      "text": "Pilot a small-space matching program for the 13 observed storefronts under 1,500 sqft that are estimated vacant for more than a year.",
+      "supported_by": [
+        "F2"
+      ],
+      "action": "Package permitting guidance and fit-out support around smaller, lower-capital spaces."
+    },
+    {
+      "id": "R3",
+      "text": "Create an opt-in pathway for permitted cottage-food operators who want to test a shared commercial kitchen or storefront.",
+      "supported_by": [
+        "F3"
+      ],
+      "action": "Invite operators through the City’s own secure records; do not publish or reuse personal contact details."
+    }
+  ],
+  "generated_at": "2026-09-22T02:59:22.576222+00:00"
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "year": 2014,
+    "licensecat": "FS",
+    "new_licenses": 23
+  },
+  {
+    "year": 2014,
+    "licensecat": "FT",
+    "new_licenses": 28
+  },
+  {
+    "year": 2015,
+    "licensecat": "FS",
+    "new_licenses": 66
+  },
+  {
+    "year": 2015,
+    "licensecat": "FT",
+    "new_licenses": 42
+  },
+  {
+    "year": 2016,
+    "licensecat": "FS",
+    "new_licenses": 80
+  },
+  {
+    "year": 2016,
+    "licensecat": "FT",
+    "new_licenses": 33
+  },
+  {
+    "year": 2017,
+    "licensecat": "FS",
+    "new_licenses": 79
+  },
+  {
+    "year": 2017,
+    "licensecat": "FT",
+    "new_licenses": 31
+  },
+  {
+    "year": 2018,
+    "licensecat": "FS",
+    "new_licenses": 111
+  },
+  {
+    "year": 2018,
+    "licensecat": "FT",
+    "new_licenses": 57
+  },
+  {
+    "year": 2019,
+    "licensecat": "FS",
+    "new_licenses": 121
+  },
+  {
+    "year": 2019,
+    "licensecat": "FT",
+    "new_licenses": 93
+  },
+  {
+    "year": 2020,
+    "licensecat": "FS",
+    "new_licenses": 50
+  },
+  {
+    "year": 2020,
+    "licensecat": "FT",
+    "new_licenses": 40
+  },
+  {
+    "year": 2021,
+    "licensecat": "FS",
+    "new_licenses": 107
+  },
+  {
+    "year": 2021,
+    "licensecat": "FT",
+    "new_licenses": 75
+  },
+  {
+    "year": 2022,
+    "licensecat": "FS",
+    "new_licenses": 105
+  },
+  {
+    "year": 2022,
+    "licensecat": "FT",
+    "new_licenses": 123
+  },
+  {
+    "year": 2023,
+    "licensecat": "FS",
+    "new_licenses": 107
+  },
+  {
+    "year": 2023,
+    "licensecat": "FT",
+    "new_licenses": 127
+  },
+  {
+    "year": 2024,
+    "licensecat": "FS",
+    "new_licenses": 129
+  },
+  {
+    "year": 2024,
+    "licensecat": "FT",
+    "new_licenses": 123
+  },
+  {
+    "year": 2025,
+    "licensecat": "FS",
+    "new_licenses": 117
+  },
+  {
+    "year": 2025,
+    "licensecat": "FT",
+    "new_licenses": 161
+  },
+  {
+    "year": 2026,
+    "licensecat": "FS",
+    "new_licenses": 44
+  },
+  {
+    "year": 2026,
+    "licensecat": "FT",
+    "new_licenses": 145
+  }
+]

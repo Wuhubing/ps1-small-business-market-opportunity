@@ -4,3 +4,4 @@ __pycache__/
 *.parquet
 .codex-*
 .pytest_cache/
+.sites-runtime/
